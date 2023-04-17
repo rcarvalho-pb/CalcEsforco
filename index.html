@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <title>Cálculo de Esforço</title>
+</head>
+<body>
+    <div>
+        <form action="" class="cond" method="post">
+            
+            <h2 id="titulo" class="titulo">MT</h2>
+            
+            <div class="cond-mt">
+                <div class="col-left-mt">
+                    <div>
+                        <label for="vao1">Condutor</label>
+                        <select name="vao1" class="vao" id="ale"></select>
+                        <label for="fase1">Fases</label>
+                        <select name="fase1" class="fases"></select>
+                        <label for="neutro1">Neutro</label>
+                        <select name="neutro1" class="neutro"></select>
+                        <label for="ang1">Ângulo</label>
+                        <input type="number" name="ang1" class="angulo">
+                    </div>
+                    <div>
+                        <label for="vao2">Condutor</label>
+                        <select name="vao2" class="vao"></select>
+                        <label for="fase2">Fases</label>
+                        <select name="fase2" class="fases"></select>
+                        <label for="neutro2">Neutro</label>
+                        <select name="neutro2" class="neutro"></select>
+                        <label for="ang2">Ângulo</label>
+                        <input type="number" name="ang2" class="angulo">
+                    </div>
+
+                </div>
+                <div class="col-right-mt">
+                    <div>
+                        <label for="vao3">Condutor</label>
+                        <select name="vao3" class="vao"></select>
+                        <label for="fase3">Fases</label>
+                        <select name="fase3" class="fases"></select>
+                        <label for="neutro3">Neutro</label>
+                        <select name="neutro3" class="neutro"></select>
+                        <label for="ang3">Ângulo</label>
+                        <input type="number" name="ang3" class="angulo">
+                    </div>
+                    <div>
+                        <label for="vao4">Condutor</label>
+                        <select name="vao4" class="vao"></select>
+                        <label for="fase4">Fases</label>
+                        <select name="fase4" class="fases"></select>
+                        <label for="neutro4">Neutro</label>
+                        <select name="neutro4" class="neutro"></select>
+                        <label for="ang4">Ângulo</label>
+                        <input type="number" name="ang4" class="angulo">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2>BT</h2>
+            </div>
+            <div class="cond-bt">
+                <div class="col-left-bt">
+                    <div>
+                        <label for="vao5">Condutor</label>
+                        <select name="vao5" class="vaoBT"></select>
+                        <label for="fase5">Fases</label>
+                        <select name="fase5" class="fases"></select>
+                        <label for="neutro5">Neutro</label>
+                        <select name="neutro5" class="neutro"></select>
+                        <label for="ang5">Ângulo</label>
+                        <input type="number" name="ang5" class="angulo">
+                    </div>
+                    <div>
+                        <label for="vao6">Condutor</label>
+                        <select name="vao6" class="vaoBT"></select>
+                        <label for="fase6">Fases</label>
+                        <select name="fase6" class="fases"></select>
+                        <label for="neutro6">Neutro</label>
+                        <select name="neutro6" class="neutro"></select>
+                        <label for="ang6">Ângulo</label>
+                        <input type="number" name="ang6" class="angulo">
+                    </div>
+
+                </div>
+                <div class="col-right-bt">
+                    <div>
+                        <label for="vao7">Condutor</label>
+                        <select name="vao7" class="vaoBT"></select>
+                        <label for="fase7">Fases</label>
+                        <select name="fase7" class="fases"></select>
+                        <label for="neutro7">Neutro</label>
+                        <select name="neutro7" class="neutro"></select>
+                        <label for="ang7">Ângulo</label>
+                        <input type="number" name="ang7" class="angulo">
+                    </div>
+                    <div>
+                        <label for="vao8">Condutor</label>
+                        <select name="vao8" class="vaoBT"></select>
+                        <label for="fase8">Fases</label>
+                        <select name="fase8" class="fases"></select>
+                        <label for="neutro8">Neutro</label>
+                        <select name="neutro8" class="neutro"></select>
+                        <label for="ang8">Ângulo</label>
+                        <input type="number" name="ang8" class="angulo">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <input type="submit" value="Calcular" id="getData">
+        </form>
+    </div>
+<div>
+  <canvas id="myChart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+ 
+</body>
+</html>
